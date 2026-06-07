@@ -1,0 +1,22 @@
+{
+  "name": "testrepo1",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "*",
+    "eslint": "*",
+    "jest": "*",
+    "ts-jest": "*",
+    "@types/jest": "*",
+    "@types/node": "*",
+    "@typescript-eslint/parser": "*",
+    "@typescript-eslint/eslint-plugin": "*"
+  }
+}
